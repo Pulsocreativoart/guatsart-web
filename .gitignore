@@ -23,6 +23,7 @@
 
 # deployment providers
 .vercel
+/.tools/
 
 # logs and OS files
 npm-debug.log*
