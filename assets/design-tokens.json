@@ -1,0 +1,53 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "primitive": {
+    "color": {
+      "ink950": { "$type": "color", "$value": "#0D0F0E" },
+      "ink900": { "$type": "color", "$value": "#111312" },
+      "paper50": { "$type": "color", "$value": "#FAF9F5" },
+      "paper100": { "$type": "color", "$value": "#F1EFE8" },
+      "gray400": { "$type": "color", "$value": "#9B9E99" },
+      "gray600": { "$type": "color", "$value": "#5D625E" },
+      "orange": { "$type": "color", "$value": "#ED6F38" },
+      "cyan": { "$type": "color", "$value": "#3BD8D3" },
+      "pink": { "$type": "color", "$value": "#EE3F91" }
+    },
+    "space": {
+      "1": { "$type": "dimension", "$value": "4px" },
+      "2": { "$type": "dimension", "$value": "8px" },
+      "3": { "$type": "dimension", "$value": "12px" },
+      "4": { "$type": "dimension", "$value": "16px" },
+      "6": { "$type": "dimension", "$value": "24px" },
+      "8": { "$type": "dimension", "$value": "32px" },
+      "12": { "$type": "dimension", "$value": "48px" },
+      "16": { "$type": "dimension", "$value": "64px" },
+      "24": { "$type": "dimension", "$value": "96px" }
+    }
+  },
+  "semantic": {
+    "color": {
+      "background": { "$type": "color", "$value": "{primitive.color.paper50}" },
+      "foreground": { "$type": "color", "$value": "{primitive.color.ink950}" },
+      "inverseBackground": { "$type": "color", "$value": "{primitive.color.ink900}" },
+      "inverseForeground": { "$type": "color", "$value": "{primitive.color.paper50}" },
+      "accent": { "$type": "color", "$value": "{primitive.color.orange}" },
+      "focus": { "$type": "color", "$value": "{primitive.color.cyan}" },
+      "muted": { "$type": "color", "$value": "{primitive.color.gray600}" }
+    },
+    "font": {
+      "display": { "$type": "fontFamily", "$value": "Syne Variable" },
+      "body": { "$type": "fontFamily", "$value": "Manrope Variable" }
+    }
+  },
+  "component": {
+    "button": {
+      "minHeight": { "$type": "dimension", "$value": "44px" },
+      "background": { "$type": "color", "$value": "{semantic.color.inverseBackground}" },
+      "foreground": { "$type": "color", "$value": "{semantic.color.inverseForeground}" }
+    },
+    "header": {
+      "heightDesktop": { "$type": "dimension", "$value": "88px" },
+      "heightCompact": { "$type": "dimension", "$value": "72px" }
+    }
+  }
+}

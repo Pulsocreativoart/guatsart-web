@@ -1,0 +1,11 @@
+# Development and review artifacts are retained in GitHub but are not needed
+# in the runtime deployment bundle.
+docs/
+design-system/
+output/
+tests/
+tmp/
+playwright-report/
+test-results/
+scripts/
+*.md

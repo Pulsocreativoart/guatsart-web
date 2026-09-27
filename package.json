@@ -1,0 +1,44 @@
+{
+  "name": "guatsart",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Experiencia web curatorial para GÜATSART — una no galería por NOUBODY.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "capture": "node scripts/capture-previews.mjs",
+    "verify": "npm run lint && npm run typecheck && npm run build && npm run test:e2e"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "@fontsource-variable/manrope": "^5.3.0",
+    "@fontsource-variable/syne": "^5.3.0",
+    "lucide-react": "^1.48.0",
+    "motion": "^13.4.4",
+    "next": "^16.3.6",
+    "nodemailer": "^10.0.11",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.63.0",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.6.3",
+    "@types/nodemailer": "^8.0.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.6",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^6.0.3"
+  }
+}

@@ -1,0 +1,20 @@
+:root {
+  --primitive-ink-950: #0d0f0e;
+  --primitive-ink-900: #111312;
+  --primitive-paper-50: #faf9f5;
+  --primitive-paper-100: #f1efe8;
+  --primitive-gray-400: #9b9e99;
+  --primitive-gray-600: #5d625e;
+  --primitive-orange: #ed6f38;
+  --primitive-cyan: #3bd8d3;
+  --primitive-pink: #ee3f91;
+  --semantic-background: var(--primitive-paper-50);
+  --semantic-foreground: var(--primitive-ink-950);
+  --semantic-inverse-background: var(--primitive-ink-900);
+  --semantic-inverse-foreground: var(--primitive-paper-50);
+  --semantic-accent: var(--primitive-orange);
+  --semantic-focus: var(--primitive-cyan);
+  --semantic-muted: var(--primitive-gray-600);
+  --component-button-min-height: 44px;
+  --component-header-height: 88px;
+}
