@@ -46,10 +46,10 @@ export function Hero() {
       </motion.div>
       <div className="hero-scrim" />
       <motion.div className="hero-content" style={{ y: contentY }}>
-        <p className="hero-kicker">Ciudad de Guatemala · Archivo vivo</p>
+        <p className="hero-kicker"> · Archivo vivo</p>
         <h1 id="hero-title">GÜATS<br />ART</h1>
         <div className="hero-meta">
-          <p>Una no galería<br />por NOUBODY.</p>
+          <p>Galería por NOUBODY.</p>
           <a className="hero-scroll" href="#obra">
             Explorar obra <ArrowIcon className="hero-scroll-icon" direction="down" />
           </a>
