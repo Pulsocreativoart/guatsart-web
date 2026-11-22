@@ -33,8 +33,8 @@ export function HomePage() {
               <h2 id="intro-heading">No venimos a<br />decorar paredes.</h2>
             </div>
             <div className="intro-copy">
-              <p className="lead">GÜATSART es un territorio de fricción: entre la calle y la sala, entre el impulso y el archivo.</p>
-              <p>El Taller experimental de Guatsart reúne materia, caligrafía y relato para construir imágenes que no piden permiso. Aquí, la obra se mira de cerca, se recorre y se deja hablar.</p>
+              <p className="lead">GÜATSART es un Taller que se cuestiona, un territorio de fricción, entre la calle, el impulso y el experimento.</p>
+              <p>Este Taller reúne materia, trazo y relato para construir imágenes que no piden permiso. </p>
               <a className="text-link" href="#manifiesto">Leer el manifiesto <ArrowIcon /></a>
             </div>
           </Reveal>
