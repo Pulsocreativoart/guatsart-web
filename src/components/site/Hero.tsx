@@ -49,7 +49,6 @@ export function Hero() {
         <p className="hero-kicker"> · Archivo vivo</p>
         <h1 id="hero-title">GÜATS<br />ART</h1>
         <div className="hero-meta">
-          <p>Galería por NOUBODY.</p>
           <a className="hero-scroll" href="#obra">
             Explorar obra <ArrowIcon className="hero-scroll-icon" direction="down" />
           </a>
