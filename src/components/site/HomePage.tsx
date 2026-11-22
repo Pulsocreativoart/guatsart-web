@@ -24,7 +24,7 @@ export function HomePage() {
           <div aria-hidden="true" className="marquee">
             <div>
               {Array.from({ length: 4 }).map((_, index) => (
-                <span key={index}>. </span>
+                <span key={index}>{index === 2 ? "DSFDFDFSDFSDFD" : ". "}</span>
               ))}
             </div>
           </div>
