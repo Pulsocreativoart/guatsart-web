@@ -30,7 +30,6 @@ export function HomePage() {
           </div>
           <Reveal className="intro-grid">
             <div>
-              <p className="eyebrow">Una no galería</p>
               <h2 id="intro-heading">No venimos a<br />decorar paredes.</h2>
             </div>
             <div className="intro-copy">
